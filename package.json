@@ -40,6 +40,7 @@
     "webpack": "3.5.1",
     "webpack-dev-server": "2.8.2",
     "webpack-manifest-plugin": "1.2.1",
+    "webpack-sources": "^1.0.1",
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
@@ -84,9 +85,8 @@
     "presets": [
       "react-app"
     ],
-    "plugins":[
+    "plugins": [
       "styled-jsx/babel"
-
     ]
   },
   "eslintConfig": {

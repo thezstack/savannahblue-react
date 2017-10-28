@@ -10,12 +10,9 @@ class App extends Component {
     return (
         <div className="body">
           <About />
+          <Mailinglist />
           <style jsx global>{`
-            @import url('https://fonts.googleapis.com/css?family=Poppins:300,900');
-            body{
-              background-color: black;
-              height:100%;
-            }
+
             `}</style>
         </div>
 
